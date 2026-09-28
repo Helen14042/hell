@@ -1,5 +1,5 @@
 const startDate = new Date('2026-02-21');
-function updateCounter(){
+function updateCounter() {
     const today = new Date();
     const deffTime = today - startDate;
     const diffDays = Math.floor(diffTime/(1000*60*60*24));
@@ -8,5 +8,4 @@ function updateCounter(){
         counterElement.textContent = diffDays;
     }
 }
-
 updateCounter();
