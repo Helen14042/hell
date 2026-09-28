@@ -15,3 +15,15 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
+.counter-text{
+    font-size:20px;
+    color: #d6336c;
+    text-align: center;
+    marglin: 30px 0;
+}
+#days-counter{
+    font-size: 32px;
+    font-weight: bold;
+    color: #e64980;
+}
